@@ -1,3 +1,4 @@
+HEAD
 
 # 📊 Meu Dashboard - Big Mart Sales
 
@@ -79,3 +80,8 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ---
 
 ✉️ **Contato**: arnaldomariano@gmail.com | [GitHub](https://github.com/arnaldomariano)
+=======
+# Meu Dashboard
+
+Este é um projeto de dashboard em Python usando Streamlit para visualizar dados de vendas do Big Mart.
+35a4074d2a8509faaf458f1344f3e8e17735f121
