@@ -6,7 +6,7 @@ import streamlit as st
 # Imports Streamlit for building interactive web interfaces
 import plotly.express as px
 # Imports Plotly Express for creating interactive visualizations
-
+import io
 
 #✅ Page Configuration: Defines how the Streamlit app appears, setting the browser tab title and adjusting the layout to use the full width of the screen, making the dashboard more spacious and visually appealing.
 # Page configuration
@@ -182,11 +182,6 @@ with st.expander("🔍 View filtered data table"):
     st.dataframe(df_filtered)
 # Adds an expandable section where users can view the full filtered dataset as a table
 
-import io
-
-# Show complete filtered data table (optional)
-with st.expander("🔍 View filtered data table"):
-    st.dataframe(df_filtered)
 
     # Convert DataFrame to CSV
     csv = df_filtered.to_csv(index=False).encode('utf-8')
